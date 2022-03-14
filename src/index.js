@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './fonts/Refita.ttf';
 import './fonts/LucianoDisplay-Light.ttf';
 import './fonts/LucianoDisplay-Regular.ttf';
+
+import App from './components/App';
+import Cv from './components/Cv'
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,7 +20,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="" element={<App/>}/>      
+        <Route path="" element={<App/>}/>
     </Routes>
   </Router>
   </React.StrictMode>,

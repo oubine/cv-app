@@ -1,0 +1,135 @@
+@font-face {
+font-family: "Refita";
+src: local("Refita"),
+ url("../fonts/Refita.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Regular";
+src: local("Luciano-Regular"),
+ url("../fonts/LucianoDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "Luciano-Light";
+src: local("Luciano-Light"),
+ url("../fonts/LucianoDisplay-Light.ttf") format("truetype");
+}
+
+.PhotoAccueil {
+  position: absolute;
+  margin-right: 30em;
+}
+
+.Menu {
+  all: unset;
+  cursor: pointer;
+  min-height: 100vh;
+}
+
+.PicturesAccueil {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+
+}
+
+.CadreAccueil1, .CadreAccueilAnimated1 {
+position: absolute;
+margin-top: -13em;
+margin-left: -21.5em;
+
+}
+
+.CadreAccueil2, .CadreAccueilAnimated2 {
+position: absolute;
+margin-top: -13.5em;
+margin-left: -22em;
+
+}
+
+.CadreAccueilAnimated2 {
+  animation: animation2 1s;
+}
+.CadreAccueilAnimated1 {
+  animation: animation1 1s
+}
+
+@keyframes animation2 {
+  50%  {
+      transform: scale(1.08, 0.99) ;   
+   } /* ignorée */
+}
+
+@keyframes animation1 {
+  50%  {
+      transform: scale(0.90, 1.1) translateX(-30px);   
+   } /* ignorée */
+}
+
+
+.TitleAccueil {
+ margin-bottom: 12em;
+ margin-left: 8em; 
+}
+
+.OubineAccueil {
+  font-family: "Refita";
+font-size: 3em;
+}
+
+.PERRINAccueil {
+  color: #BADB73;
+  margin-top: -1.2em;
+  font-family: "Refita";
+font-size: 3.1em;
+}
+
+
+.AboutAccueil {
+  font-family: "Luciano-Light";
+  margin-top: -3em;
+  font-size: 0.9em;
+}
+
+
+.SideMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #9FA979;
+  min-width: 5em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+  border-left: solid 1px #E7EEFF;
+font-family: Luciano-Regular;
+color: #E7EEFF;
+}
+
+
+
+.SideMenuOpen {
+  font-family: Luciano-Regular;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #9FA979;
+  min-width: 10em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+  border-left: solid 1px #E7EEFF;
+color: #E7EEFF;
+
+
+}
+

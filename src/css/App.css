@@ -1,20 +1,33 @@
+
+
+
+@font-face {
+font-family: "Refita";
+src: local("Refita"),
+ url("../fonts/Refita.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Regular";
+src: local("Luciano-Regular"),
+ url("../fonts/LucianoDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "Luciano-Light";
+src: local("Luciano-Light"),
+ url("../fonts/LucianoDisplay-Light.ttf") format("truetype");
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Link {
+    color: inherit;
+    text-decoration: inherit;
+    cursor:  pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #9FA979;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +37,172 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Background {
+  background-color: #9FA979;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+    color: #E7EEFF ;
+    font-family: "Luciano-Light";
+    font-weight: light;
+
+}
+.formationsIndicator, .contactsIndicator, .projetsIndicator, .competencesIndicator{
+  position: absolute;
+  margin-right: -1.5em;
+  border:  solid #BADB73 1px;
+  background-color: #BADB73 ;;
+  border-radius: 50%;
+  min-width: 5px;
+  min-height: 5px;
+  max-width: 5px;
+  max-height: 5px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formationsIndicator {
+  top: 0.3em;
 }
+.competencesIndicator {
+  top: 2.8em;
+}
+.projetsIndicator {
+  top: 5.3em;
+}
+.contactsIndicator {
+  top: 7.7em;
+}
+
+.SideBackground {
+  position: fixed;
+  border-right: solid 1px #E7EEFF;
+  top: 0;
+  left: 0;
+  min-width: 25em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+}
+
+.Menu {
+  background-color: #E89F9A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.CV {
+  margin-left: 28em;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+
+
+
+.Page {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.NavMenu {
+  position: fixed;
+  top: 3%;
+  right: 3%;
+  display: flex;
+  text-align: end;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: white;
+}
+
+.NavLink {
+  margin-bottom: 0.3em;
+  cursor: pointer;
+      font-family: "Luciano-Light";
+
+}
+
+.NavLinkActive {
+  margin-bottom: 0.3em;
+  cursor: pointer;
+        font-family: "Luciano-Regular";
+        color:  #BADB73;
+
+
+}
+
+
+.Description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25em;
+  text-align: center;
+
+}
+
+.Oubine {
+  font-family: "Refita";
+font-size: 2.2em;
+}
+
+.PERRIN {
+  color: #BADB73;
+  margin-top: -1.2em;
+  font-family: "Refita";
+font-size: 2.3em;
+}
+
+.Photo {
+  position: absolute;
+  margin-top: -20em;
+
+}
+
+.Pictures {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+
+}
+
+
+.Cadre {
+  position: absolute;
+  margin-top: -20em;
+}
+
+.Detail {
+}
+
+.Title {
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  z-index: 1;
+  left: 30%;
+  font-size:  2em;
+  font-family: "Refita";
+  color: #E7EEFF;
+
+}
+
