@@ -3,10 +3,23 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/Refita.ttf';
+import './fonts/LucianoDisplay-Light.ttf';
+import './fonts/LucianoDisplay-Regular.ttf';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path="" element={<App/>}/>      
+    </Routes>
+  </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
