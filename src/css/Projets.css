@@ -1,0 +1,83 @@
+
+
+@font-face {
+font-family: "Refita";
+src: local("Refita"),
+ url("../fonts/Refita.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Regular";
+src: local("Luciano-Regular"),
+ url("../fonts/LucianoDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Light";
+src: local("Luciano-Light"),
+ url("../fonts/LucianoDisplay-Light.ttf") format("truetype");
+}
+
+
+.ProjetTitle {
+  margin-top: -0.5em;
+  margin-bottom: 2em;
+  font-family: Luciano-Regular;
+  margin-left: 3em;
+}
+
+.ProjetDate {
+  color: #BADB73;
+}
+
+
+.Projets {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  min-width: 40em;
+    min-height: 50vh;
+}
+
+
+.ProjetDescription{
+    margin-left: 3em;
+    margin-top: 2em;
+    font-size: 0.8em;
+    text-align: justify;
+    text-justify: distribute;
+    min-width: 40em;
+    max-width: 40em;
+
+}
+
+.ProjetSkills{
+    margin-left: 3em;
+    margin-top: 1em;
+    font-size: 0.8em;
+    text-justify: inter-word;
+    min-width: 40em;
+    max-width: 40em;
+
+}
+.DoubleCadre {
+  margin-top: -1em;
+
+}
+.Carousel {
+  min-width: 30em;
+  max-width: 30em;
+  position: absolute;
+  margin-top: -1em;
+
+}
+
+.Decoration {
+  margin-left: 0em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+
+}

@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.0",
+    "@mui/styles": "^5.5.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-in-viewport": "^1.0.0-alpha.20",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.6",
+    "react-typed": "^1.2.0",
+    "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

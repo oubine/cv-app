@@ -1,0 +1,130 @@
+
+
+@font-face {
+font-family: "Refita";
+src: local("Refita"),
+ url("../fonts/Refita.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Regular";
+src: local("Luciano-Regular"),
+ url("../fonts/LucianoDisplay-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Light";
+src: local("Luciano-Light"),
+ url("../fonts/LucianoDisplay-Light.ttf") format("truetype");
+}
+
+
+
+.DownloadIcon {
+  position: absolute;
+  right: 13%;
+  
+  
+}
+
+.PetitTexte {
+  position: absolute;
+  font-family: Luciano-Regular;
+  color: #BADB73;
+  margin-top: 1em;
+  max-width: 30em;
+}
+
+.InputTexte {
+  all: unset;
+  background-color: transparent;
+  border:  solid 1px #E7EEFF;
+  margin-left: 4em;
+  margin-top: -0.3em;
+  min-width: 24.5em;
+  min-height: 1em;
+  padding: 5px 8px;
+position: absolute;
+}
+
+.SubmitButton {
+  all: unset;
+  background-color: transparent;
+  border:  solid 1px #E7EEFF;
+  margin-left: 4em;
+  margin-top: 18em;
+  min-width: 24.5em;
+  min-height: 1em;
+  text-align: center;
+  padding: 5px 4px;
+position: absolute;
+}
+
+.FormLabel {
+  min-width: 100px;
+}
+
+.SubmitButton:hover {
+  border:  solid 1px #BADB73;
+  color: #BADB73;
+}
+
+.SubmitButton:focus, .SubmitButton:active {
+  background-color: #BADB73;
+  border:  solid 1px #9FA979;
+  color: #9FA979;
+
+}
+
+
+.FormTitle {
+  font-family: Luciano-Regular;
+  margin-top: 1em
+}
+
+
+.FormLabel {
+  min-width: 100px;
+}
+
+.InputTexteLong {
+  all: unset;
+  position: absolute;
+  background-color: transparent;
+  border:  solid 1px #E7EEFF;
+  margin-top: 0em;
+  min-width: 24.5em;
+  min-height: 7em;
+  margin-left: 4em;
+  margin-top: -0.3em;
+  overflow: hidden;
+  padding: 5px 8px;
+
+}
+.InputTexte:focus {
+  border:  solid 1px #BADB73;
+}
+.InputTexteLong:focus {
+  border:  solid 1px #BADB73;
+
+}
+.Form {
+  margin-top: 3em;
+    display: flex;
+  flex-direction: column;
+}
+
+.FormElement {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+}
+.Contacts {
+  margin-top: 0em;
+  display: flex;
+  flex-direction: column;
+  min-width: 40em;
+    min-height: 50vh;
+}
+
+

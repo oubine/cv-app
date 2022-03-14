@@ -1,0 +1,170 @@
+@font-face {
+font-family: "Refita";
+src: local("Refita"),
+ url("../fonts/Refita.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Regular";
+src: local("Luciano-Regular"),
+ url("../fonts/LucianoDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "Luciano-Light";
+src: local("Luciano-Light"),
+ url("../fonts/LucianoDisplay-Light.ttf") format("truetype");
+
+}
+.School {
+  color: #BADB73;
+    font-family: "Luciano-Regular";
+}
+
+.About {
+  margin-top: -1em;
+  font-size: 1.3em;
+}
+
+
+.Date {
+  min-width: 10em;
+  font-size: 0.8em;
+
+}
+
+
+.Formation, .FormationClickable {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 0em;
+}
+.FormationClickable {
+  cursor:  pointer;
+
+}
+.FormationDetails, .FormationDetailsClicked {
+  margin-bottom: -0em;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.TitleClickable {
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  z-index: 1;
+  left: 30%;
+  font-size:  2em;
+  font-family: "Refita";
+  color: #E7EEFF;
+
+}
+
+
+.TitleClicked {
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  z-index: 1;
+  left: 30%;
+  font-size:  2em;
+  font-family: "Refita";
+  transform: translateX(90px) scale(0.7);
+  transition: transform 0.25s;
+  color: #E7EEFF;
+
+
+}
+
+
+@keyframes titleAnimation {
+  100% {
+    transform: translateX(205px);
+  }
+  
+}
+
+
+
+.FormationDetailsClickable:hover{
+  color: #BADB73;
+  transition: color 0.5s ;
+  cursor:  pointer;
+
+}
+
+
+.FormationDetailsClicked {
+  animation: clickAnimation 0.3s ;
+  color: #BADB73;
+  cursor:  pointer;
+}
+
+
+
+@keyframes clickAnimation {
+  50% {
+    transform: translateX(25px);
+  }
+  100% {color: #BADB73;}
+  
+}
+
+
+.DetailTitle {
+  font-size: 0.8em;
+  margin-bottom: -0.5em;
+  font-family: "Luciano-Regular";
+
+}
+
+.DetailDiploma, .DetailSchool, .DetailDiplomaClickable  {
+  font-size: 0.7em;
+  cursor:  pointer;
+
+
+}
+
+.DetailDiploma, .DetailDiplomaClickable {
+  margin-top: -1em;
+}
+
+
+.DetailFormationSlide {
+  position: fixed;
+  background-color: #E7EEFF ;
+  top: 0;
+  left: 0;
+  min-width: 45em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  float:left;
+  color: #9FA979;
+}
+
+
+.FormationTitle {
+  font-size: 5em;
+  margin-right: 0.2em;
+}
+
+
+.FormationSubTitle {
+  font-family: Luciano-Regular;
+    font-size: 1.5em;
+  margin-right: 1em;
+  margin-bottom: 3em;
+}
+
+
+.FormationDetail, .FormationDetailClickable {
+  font-family:  Luciano-Regular;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  margin-right: 1em;
+  cursor:  pointer;
+
+}

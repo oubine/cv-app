@@ -1,0 +1,132 @@
+@font-face {
+font-family: "Refita";
+src: local("Refita"),
+ url("../fonts/Refita.ttf") format("truetype");
+}
+
+@font-face {
+font-family: "Luciano-Regular";
+src: local("Luciano-Regular"),
+ url("../fonts/LucianoDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+font-family: "Luciano-Light";
+src: local("Luciano-Light"),
+ url("../fonts/LucianoDisplay-Light.ttf") format("truetype");
+
+}
+
+
+.Competences {
+  display: flex;
+  flex-direction: column; 
+  font-family: Luciano-Light;
+  margin-top: 0.5em;
+}
+
+.SectionTitle {
+  font-family: Luciano-Regular;
+  color: #BADB73;
+  font-size: 0.8em;
+}
+
+.SectionSubTitle, .SectionSubTitle2, .Date {
+  font-family: Luciano-Regular;
+  font-size: 0.8em;
+}
+
+.SectionSubTitle2 {
+	position: absolute;
+	margin-left: 7em;
+}
+
+.LangageLinearProgress {
+	font-size: 0.8em;
+	font-family: Luciano-Light;
+	min-width: 40em;
+	margin-top: 1em;
+	  display: flex;
+  flex-direction: row; 
+}
+
+.LinearProgress {
+	position:  absolute;
+	min-width: 40em;
+	margin-top: 0.5em;
+	margin-left: 12em;
+}
+
+
+
+.LinearProgressValue {
+	position:  absolute;
+	margin-left: 9em;
+}
+
+.LangageLinearProgress {
+	font-size: 0.8em;
+	font-family: Luciano-Light;
+	min-width: 40em;
+	margin-top: 1em;
+	  display: flex;
+  flex-direction: row; 
+}
+
+
+.Theoriques {
+	margin-top: 1em;
+	display: flex;
+  	flex-direction: row; 
+}
+
+
+.Theoriques2 {
+	margin-top: -0.5em;
+	display: flex;
+  	flex-direction: row; 
+}
+
+.TheoriquesListe {
+	text-justify: inter-word;
+	max-width: 45em;
+	margin-top: 1em;
+	font-size: 0.8em;
+	font-family: Luciano-Light;
+	position:  absolute;
+	margin-left: 9em;
+
+}
+
+.HutechDescription{
+	text-align: justify;
+	text-justify: distribute;
+	max-width: 35em;
+	font-size: 0.8em;
+	font-family: Luciano-Light;
+}
+.Emphasize {
+	color: #BADB73;
+}
+
+
+.SciencesSHS {
+	margin-top: 2;
+	display: flex;
+	flex-direction: row;
+} 
+
+.Langues {
+	margin-top: 1.9em;
+	margin-left: 2em;
+}
+
+.LanguesListe {
+	font-size: 0.8em;
+
+}
+
+.HuTechTitle {
+	margin-top: -1.5em;
+	display: flex;
+	flex-direction: row;
+}

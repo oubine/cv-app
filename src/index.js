@@ -21,6 +21,8 @@ ReactDOM.render(
     <Router>
       <Routes>
         <Route path="" element={<App/>}/>
+        <Route path="/cv" element={<Cv/>}/>
+
     </Routes>
   </Router>
   </React.StrictMode>,
