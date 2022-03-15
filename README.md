@@ -57,12 +57,12 @@ J'ai fait 2 maquettes, la première m'a posé de nombreux problèmes pour le scr
 
 Première version:
 
-![V1](./src/images/V1.png)
+![V1](src/images/V1.png)
 
 
 Deuxième version:
 
-![V2](./src/images/V2.png)
+![V2](src/images/V2.png)
 
 
 ## 3. Développement du site web<a id="developpement"></a>
