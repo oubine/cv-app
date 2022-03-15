@@ -55,6 +55,16 @@ Le vers le figma: https://www.figma.com/file/UazVrdDff4nfKrQ03PrbiD/TZZzzzz?node
 
 J'ai fait 2 maquettes, la première m'a posé de nombreux problèmes pour le scrollage car je souhaitais une navigation via un scrollage "contrôlé". J'ai essayé plusieurs manières de le coder mais celui-ci restait peu naturel donc j'ai préféré revoir la manière de circuler dans le site. J'ai profité de ce changement de direction pour revoir la charte graphique et choisir des couleurs plus claires pour que celles ci me représentent mieux.
 
+Première version:
+
+![V1](./src/images/V1.png)
+
+
+Deuxième version:
+
+![V2](./src/images/V2.png)
+
+
 ## 3. Développement du site web<a id="developpement"></a>
 
 Après avoir établit un aperçu de l'interface graphique du site web, il a fallut coder celui-ci. Il a été entièrement codé en Javascript, en utilisant la librairie React. La mise en forme a été faite en Css. J'utilisé le gestionnaire de packages Node.js.
