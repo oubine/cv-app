@@ -2,7 +2,7 @@
 
 
 Bienvenue sur le repository de mon CV en ligne. Celui-ci a été codé par mes soins dans un le cadre d'un projet de fin d'étude à l'utc au sein de la branche informatique. 
-
+[lien afficher](#nomAncre)
 Voici le lien du site: https://oubine-perrincv.netlify.app/
 
 Vous trouverez ci-dessous le rapport détaillant l'élaboration de ce projet. Ce rapport est divisé en 4 parties. Tout d'abord nous allons rappeler dans quel cadre ce projet d'études a commencé, pourquoi celui-ci a vu le jour. Ensuite, je vous présenterai les différentes étapes du design de l'interface et les outils utilisés pour cela.  Enfin nous verrons comment s'est déroulée l'étape de développement, avant de conclure sur les perspectives d'améliorations de l'application.
@@ -21,7 +21,9 @@ En effet, dans la mesure où j'ai été la seule à travailler sur ce projet, ce
 
 Donc, dans un premier temps, il faut procéder au design de l'interface. Cela revient dans un premier temps a réfléchir aux questions suivantes : quelles sont les informations nécessaires dans un CV? Quelles sont leur ordres d'importance et comment on veut les agencer les unes par rapports aux autres ? Quelles sont les fonctionnalités nécessaires pour rendre la lecture de ce CV dynamique et interrative ? Quelles couleurs utiliser? Puis il faut faire une maquette du site, faire des visuels qui montrent a quoi le site devrait ressembler a la fin du projet. Ces aperçus ne sont pas fonctionnels mais a but indicatifs pour donner une direction au travail de développement. 
 
-#### Outils utilisés
+#### Outils utilis
+
+##Titre <a id="nomAncre"></a>
 
 Pour cette étape je me suis tout d'abord basée sur un CV que j'avais fait au paravent pour avoir les informations que je souhaitait mettre dans ce CV en ligne. 
 J'ai utilisé figma, un logiciel de papaye pour l'élaboration des maquettes de l'interface. 
