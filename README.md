@@ -7,21 +7,21 @@ Voici le lien du site: https://oubine-perrincv.netlify.app/
 
 Vous trouverez ci-dessous le rapport détaillant l'élaboration de ce projet. Ce rapport est divisé en 4 parties. Tout d'abord nous allons rappeler dans quel cadre ce projet d'études a commencé, pourquoi celui-ci a vu le jour. Ensuite, je vous présenterai les différentes étapes du design de l'interface et les outils utilisés pour cela.  Enfin nous verrons comment s'est déroulée l'étape de développement, avant de conclure sur les perspectives d'améliorations de l'application.
 
-##[1. Introduction](#introduction)
-##[2. Design de l'interface](#design)
-###[a. Outils utilisés](#outils_utilisés)
-###[b. Organisation des informations et choix de la charte graphique](#charte_graphique)
-###[c. Aperçus des deux versions](#deux_versions)
-##[3. Développement du site web]("#developpement")
-###[a. Initialisation avec create-react-app]("#react_app")
-###[b. Organisation du src et des composants]("#organisation")
-###[c. Outils et librairies utilisées]("#librairies")
-###[d. Animations]("#animations")
-##[4. Mise en ligne sur netlify]("#mise_en_ligne")
-##[5. Perspectives d'amélioration]("#perspectives")
-###[a. Animation plus fluides]("#animations")
-###[b. Version française et anglaise]("#version_anglaise")
-###[c. Version mobile]("#version_mobile")
+## [1. Introduction](#introduction)
+## [2. Design de l'interface](#design)
+### [a. Outils utilisés](#outils_utilisés)
+### [b. Organisation des informations et choix de la charte graphique](#charte_graphique)
+### [c. Aperçus des deux versions](#deux_versions)
+## [3. Développement du site web]("#developpement")
+### [a. Initialisation avec create-react-app]("#react_app")
+### [b. Organisation du src et des composants]("#organisation")
+### [c. Outils et librairies utilisées]("#librairies")
+### [d. Animations]("#animations")
+## [4. Mise en ligne sur netlify]("#mise_en_ligne")
+## [5. Perspectives d'amélioration]("#perspectives")
+### [a. Animation plus fluides]("#animations")
+### [b. Version française et anglaise]("#version_anglaise")
+### [c. Version mobile]("#version_mobile")
 
 
 ## 1. Introduction<a id="introduction"></a>
