@@ -41,7 +41,7 @@ Donc, dans un premier temps, il faut procéder au design de l'interface. Cela re
 ### a. Outils utilisés<a id="outils_utilisés"></a>
 
 Pour cette étape je me suis tout d'abord basée sur un CV que j'avais fait au paravent pour avoir les informations que je souhaitait mettre dans ce CV en ligne. 
-J'ai utilisé figma, un logiciel de papaye pour l'élaboration des maquettes de l'interface. 
+J'ai utilisé figma, un logiciel est un éditeur de graphiques vectoriels et un outil de prototypage, dédié pour l'élaboration des maquettes d'interfaces graphiques. 
 
 ### b. Organisation des informations et choix de la charte graphique<a id="charte_graphique"></a>
 
@@ -55,8 +55,31 @@ J'ai fait 2 maquettes, la première m'a posé de nombreux problèmes pour le scr
 
 ## 3. Développement du site web<a id="developpement"></a>
 
+Après avoir établit un aperçu de l'interface graphique du site web, il a fallut coder celui-ci. Il a été entièrement codé en Javascript, en utilisant la librairie React. La mise en forme a été faite en Css. J'utilisé le gestionnaire de packages Node.js.
+
 ### a. Initialisation avec create-react-app<a id="react_app"></a>
+
+Pour démarer j'ai utilisé la commande: 
+
+> npx create-react-app cv-app 
+
+une commande qui permet de créer un dossier avec tous les scripts pour lancer une app web. Ce site générique comporte une unique page avec une configuration basique. Une fois cette configuartion mise en place, il est ensuite facile de construire pour élaborer une application plus complexe. 
+
+Pour cela, il faut se placer dans le nouveau dossier créer et lancer la commande: 
+
+> npm start
+
+pour lancer le script en local (http://localhost:3000/) et voir ce qui est fait.
+
+Enfin, la commande: 
+
+> npm build 
+
+permet de créer un script static pour la mise en ligne du site.
+
 ### b. Organisation du src et des composants<a id="organisation"></a>
+
+
 ### c. Outils et librairies utilisées <a id="librairies"></a>
 ### d. Animations<a id="animations"></a>
 
