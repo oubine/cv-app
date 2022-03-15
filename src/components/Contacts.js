@@ -67,7 +67,7 @@ function Contacts() {
           />
           </div>
 
-      <Link to="../files/cv.pdf" target="_blank" download>
+      <Link to="../../files/cv.pdf" target="_blank" download>
           <img src={downloadIcon}  className="DownloadIcon" width={200} height={170}  alt="oubine" />
           
           </Link>
