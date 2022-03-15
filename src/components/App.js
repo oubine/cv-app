@@ -59,8 +59,8 @@ function App() {
        <div className="PicturesAccueil">
     <img src={picture} className="PhotoAccueil" width={300}  alt="oubine" />
       <div classname="ICI" onMouseLeave={()=>setHover(false)} onMouseEnter={()=>setHover(true)}>
-    <img src={Rectangle} className={hover? "CadreAccueilAnimated1":"CadreAccueil1"} width={330} height={630} alt="oubine" />
-    <img src={Rectangle} className={hover? "CadreAccueilAnimated2":"CadreAccueil2"} width={310} height={660} alt="oubine" />
+    <img src={Rectangle} className="CadreAccueil1" width={330} height={630} alt="oubine" />
+    <img src={Rectangle} className="CadreAccueil2" width={310} height={660} alt="oubine" />
     </div>
     </div>
     <div className="TitleAccueil">

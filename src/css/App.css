@@ -26,6 +26,10 @@ src: local("Luciano-Light"),
     text-decoration: inherit;
     cursor:  pointer;
 }
+
+.Link:hover {
+  color: #BADB73
+}
 .App-header {
   background-color: #9FA979;
   min-height: 100vh;
@@ -52,7 +56,7 @@ src: local("Luciano-Light"),
   position: absolute;
   margin-right: -1.5em;
   border:  solid #BADB73 1px;
-  background-color: #BADB73 ;;
+  background-color: #BADB73 ;
   border-radius: 50%;
   min-width: 5px;
   min-height: 5px;

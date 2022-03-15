@@ -19,7 +19,7 @@ const FormationsListe = [
   {
     id:2,
     date: "Printemps 2021",
-    title: "Stage d’ingénieur de fin d’études de 6 mois",
+    title: "Stage de fin d’études de 6 mois",
     schoolNameShort: "Full stack web développeuse",
     schoolNameLong: "DxOMark, Boulogne",
     details: "plus de détails +"

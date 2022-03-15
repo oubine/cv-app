@@ -36,26 +36,22 @@ src: local("Luciano-Light"),
 
 }
 
-.CadreAccueil1, .CadreAccueilAnimated1 {
+.CadreAccueil1 {
 position: absolute;
 margin-top: -13em;
 margin-left: -21.5em;
+animation: animation1 1s
 
 }
 
-.CadreAccueil2, .CadreAccueilAnimated2 {
+.CadreAccueil2{
 position: absolute;
 margin-top: -13.5em;
 margin-left: -22em;
-
-}
-
-.CadreAccueilAnimated2 {
   animation: animation2 1s;
 }
-.CadreAccueilAnimated1 {
-  animation: animation1 1s
-}
+
+
 
 @keyframes animation2 {
   50%  {
