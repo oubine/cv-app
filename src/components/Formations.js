@@ -101,76 +101,59 @@ function Formations() {
 
   return (
     <div className ="Background" id="formations" >
-
-          <Slide direction="right"  mountOnEnter unmountOnExit in={clicked}>
+      <Slide direction="right"  mountOnEnter unmountOnExit in={clicked}>
         <div className ="DetailFormationSlide">
           <div className="FormationTitle">
             {formation.title}
-        </div>    
-                  <div className="FormationSubTitle">
+          </div>    
+          <div className="FormationSubTitle">
             {formation.subTitle}
-        </div>    
-        {
-         formation.details.map((detail) => {
-            return (
-                <div className="FormationDetail">
-                {detail}
-                </div>
-              );
-         } )
-        }
-        
-
+          </div>    
+          {
+            formation.details.map((detail) => {
+              return (<div className="FormationDetail">{detail}</div>);})
+          }
         </div>    
       </Slide>
       <div className="Page" >
-          <p className= {clicked?"TitleClicked": "TitleClickable"} >
+        <p className= {clicked?"TitleClicked": "TitleClickable"}>
           Formations & Parcours professionnel
-          </p>
-          <ul>
-          {
-             FormationsListe.map((formation) => {
- if (formation.id === 2 || formation.id === 3) {
-    return (
-      <li key={formation.id}>
-
-      <div 
-          className="FormationClickable" 
-          onClick={()=>{
-            if (formation.id !== clickedId && clicked === true) {
-              setClicked(false)
-              setTimeout(() => {
-                setClickedId(formation.id)
-                setClicked(true)
-                setFormation(FormationsDetailsListe.find((f)=> (f.id===formation.id)))
-              }, 200); 
-
-            }
-            else if (clicked === false){
-              setClicked(true)
-              setClickedId(formation.id)
-            }
-            else {
-              setClicked(false)
-
-            }
-          }
-          } >
-        <p className="Date">{formation.date}</p>
-        <div 
-          className={(formation.id === clickedId && clicked === true)? "FormationDetailsClicked" : "FormationDetailsClickable"} >
-          <p className="DetailTitle" >{formation.title}</p>
-          <p className="DetailSchool"><span className="School"> {formation.schoolNameShort} </span> - {formation.schoolNameLong}</p>
-          <p className="DetailDiploma" >
-          {formation.details}
-          </p>
-        </div>
-      </div>
-        
-
-</li>
-    );    
-  }
+        </p>
+        <ul>
+          {FormationsListe.map((formation) => {
+            if (formation.id === 2 || formation.id === 3) {
+              return (
+                <li key={formation.id}>
+                  <div 
+                    className="FormationClickable" 
+                    onClick={()=>{
+                      if (formation.id !== clickedId && clicked === true) {
+                        setClicked(false)
+                        setTimeout(() => {
+                          setClickedId(formation.id)
+                          setClicked(true)
+                          setFormation(FormationsDetailsListe.find((f)=> (f.id===formation.id)))
+                        }, 200); 
+                      }
+                      else if (clicked === false){
+                        setClicked(true)
+                       setClickedId(formation.id)
+                      }
+                      else {
+                        setClicked(false)
+                      }
+                    }
+                  }>
+                    <p className="Date">{formation.date}</p>
+                    <div className={(formation.id === clickedId && clicked === true)? "FormationDetailsClicked" : "FormationDetailsClickable"} >
+                      <p className="DetailTitle" >{formation.title}</p>
+                      <p className="DetailSchool"><span className="School"> {formation.schoolNameShort} </span> - {formation.schoolNameLong}</p>
+                      <p className="DetailDiploma" >{formation.details}</p>
+                    </div>
+                  </div>
+                </li>
+              );    
+        }
   else {
     return (
       <li key={formation.id}>

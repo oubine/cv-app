@@ -49,6 +49,8 @@ Grâce au CV que j'avais déjà fait j'avais les différentes section pour mon C
 
 Pour la charte graphique, le choix des couleurs et des polices, je voulais un design ergonomique et moderne. C'est pourquoi j'ai choisi une couleur principale très présente accompagnée de photos. De plus, comme de nombreux sites aujourd'hui, j'ai fait le choix d'une partie static avec les informations principales et le menu de circulation et une partie qui se lit en scrollang de haut en bas sur la page. Comme le site n'est pas complexe, j'ai décidé de mettre cette partie sur le côté droit de la page au lieu de en haut comme cela se fait pour les sites plus complexe. 
 
+Le vers le figma: https://www.figma.com/file/UazVrdDff4nfKrQ03PrbiD/TZZzzzz?node-id=0%3A1
+
 ### c. Aperçus des deux versions<a id="deux_version"></a>
 
 J'ai fait 2 maquettes, la première m'a posé de nombreux problèmes pour le scrollage car je souhaitais une navigation via un scrollage "contrôlé". J'ai essayé plusieurs manières de le coder mais celui-ci restait peu naturel donc j'ai préféré revoir la manière de circuler dans le site. J'ai profité de ce changement de direction pour revoir la charte graphique et choisir des couleurs plus claires pour que celles ci me représentent mieux.
@@ -79,9 +81,26 @@ permet de créer un script static pour la mise en ligne du site.
 
 ### b. Organisation du src et des composants<a id="organisation"></a>
 
+Dans la mesure où l'application que j'ai eu à développer comporte plusieurs éléments et est plus compliquée que l'application de base mise en place par la commande 
+
+> create-react-app
+
+il a fallut réorganiser tout le dossier contenant les scripts du site. Actuellement, l'organisation des scripts se fait de la manière suivante: 
+
+- cv-app: dossier root
+	- node_modules : dossier avec tous les packages à télécharger pour lancer les scripts (dans .git ignore)
+	- public : dossier contenant tous le script en html sur lequel tout le reste de l'application est construit
+		- files: dossier contenant les pdf téléchargeables depuis l'application
+	- src : dossier contenant tous les scripts en javascripts
+		- components : dossier contennant tous les composants React
+		- css : dossier contennant tous les scripts css 
+		- fonts : dossier contennant tous les fichiers *.ttf* (polices utilisées)
+		- images : dossier contennant toutes les images 
+		- index.js : scripts qui appelle le index.html
 
 ### c. Outils et librairies utilisées <a id="librairies"></a>
-### d. Animations<a id="animations"></a>
+
+
 
 ## 4. Mise en ligne sur netlify<a id="mise_en_ligne"></a>
 

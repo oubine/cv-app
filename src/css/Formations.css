@@ -38,6 +38,7 @@ src: local("Luciano-Light"),
   flex-direction: row; 
   margin-top: 0em;
 }
+
 .FormationClickable {
   cursor:  pointer;
 
