@@ -70,7 +70,7 @@ src: local("Luciano-Light"),
   left: 30%;
   font-size:  2em;
   font-family: "Refita";
-  transform: translateX(90px) scale(0.7);
+  transform: translateX(110px) scale(0.7);
   transition: transform 0.25s;
   color: #E7EEFF;
 
@@ -136,7 +136,7 @@ src: local("Luciano-Light"),
   background-color: #E7EEFF ;
   top: 0;
   left: 0;
-  min-width: 45em;
+  min-width: 42.5em;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

@@ -31,12 +31,12 @@ return (
           </Link>
         </p>
         <p className={active === 'competences'? "NavLinkActive": "NavLink"}>
-          <Link className='NavLink' to='competences' spy={true} smooth={true} offset={-300} onSetActive={()=>{setActive('competences')}}>
+          <Link className='NavLink' to='competences' spy={true} smooth={true} offset={60} onSetActive={()=>{setActive('competences')}}>
             Competences 
           </Link>
         </p>
         <p className={active === 'projets'? "NavLinkActive": "NavLink"}>
-          <Link className='NavLink' to='projets' spy={true} smooth={true} offset={-100} onSetActive={()=>{setActive('projets')}}>
+          <Link className='NavLink' to='projets' spy={true} smooth={true} offset={60} onSetActive={()=>{setActive('projets')}}>
             Projets
           </Link>
         </p>
@@ -51,7 +51,7 @@ return (
     <div className = "CV">
       <Formations />
       <Competences active={active} />
-      <Projets />
+      <Projets id="gne"/>
       <Contacts/>
       </div>
       </div>

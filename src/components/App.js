@@ -35,12 +35,24 @@ function App() {
                   </Link>
                 </p>
                 <p>
-                  <Link className='Link' to='/cv' >
+                  <Link 
+                    className='Link' 
+                    to={{
+                      pathname: "/cv",
+                      hash: "competences",
+                    }}
+                     >
                     COMPETENCES
                   </Link>
                 </p>
                 <p>
-                  <Link className='Link' to='/cv' >
+                  <Link 
+                  className='Link'
+                  to={{
+                      pathname: "/cv",
+                      hash: "projets",
+                    }}
+                    >
                     PROJETS
                   </Link>
                 </p>
