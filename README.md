@@ -18,10 +18,7 @@ Vous trouverez ci-dessous le rapport détaillant l'élaboration de ce projet. Ce
 	- [c. Outils et librairies utilisées]("#librairies")
 	- [d. Animations]("#animations")
 - [4. Mise en ligne sur netlify]("#mise_en_ligne")
-- [5. Perspectives d'amélioration]("#perspectives")
-	- [a. Animation plus fluides]("#animations")
-	- [b. Version française et anglaise]("#version_anglaise")
-	- [c. Version mobile]("#version_mobile")
+- [5. Conclusion]("#conclusion")
 
 
 ## 1. Introduction<a id="introduction"></a>
@@ -36,7 +33,7 @@ En effet, dans la mesure où j'ai été la seule à travailler sur ce projet, ce
 
 ## 2. Design de l'interface<a id="design"></a>
 
-Donc, dans un premier temps, il faut procéder au design de l'interface. Cela revient dans un premier temps a réfléchir aux questions suivantes : quelles sont les informations nécessaires dans un CV? Quelles sont leur ordres d'importance et comment on veut les agencer les unes par rapports aux autres ? Quelles sont les fonctionnalités nécessaires pour rendre la lecture de ce CV dynamique et interrative ? Quelles couleurs utiliser? Puis il faut faire une maquette du site, faire des visuels qui montrent a quoi le site devrait ressembler a la fin du projet. Ces aperçus ne sont pas fonctionnels mais a but indicatifs pour donner une direction au travail de développement. 
+Donc, dans un premier temps, il faut procéder au design de l'interface. Cela revient dans un premier temps a réfléchir aux questions suivantes : **quelles sont les informations nécessaires dans un CV? Quelles sont leur ordres d'importance et comment on veut les agencer les unes par rapports aux autres ? Quelles sont les fonctionnalités nécessaires pour rendre la lecture de ce CV dynamique et interrative ? Quelles couleurs utiliser?** Puis il faut faire une maquette du site, faire des visuels qui montrent a quoi le site devrait ressembler a la fin du projet. Ces aperçus ne sont pas fonctionnels mais a but indicatifs pour donner une direction au travail de développement. 
 
 ### a. Outils utilisés<a id="outils_utilisés"></a>
 
@@ -45,7 +42,14 @@ J'ai utilisé figma, un logiciel est un éditeur de graphiques vectoriels et un 
 
 ### b. Organisation des informations et choix de la charte graphique<a id="charte_graphique"></a>
 
-Grâce au CV que j'avais déjà fait j'avais les différentes section pour mon CV en ligne : formation, compétences, projets et contacts/autres informations (ex loisirs). Dans la mesure où c'est un site qui est donc interactif, il a été possible de regrouper certaines informations sous une même section (ex: contacts et informations supplémentaires). De plus, comme le but n'étais pas de faire une simple retranscription de CV en ligne, j'ai ajouté une page d'accueil, un menu pour circuler dans le site et des interactions pour le rendre plus ludique d'utilisation.
+Grâce au CV que j'avais déjà fait j'avais les différentes section pour mon CV en ligne : 
+
+- Formations; 
+- Compétences; 
+- Projets;
+- Contacts/autres informations (ex loisirs). 
+
+Dans la mesure où c'est un site qui est donc interactif, il a été possible de regrouper certaines informations sous une même section (ex: contacts et informations supplémentaires). De plus, comme le but n'étais pas de faire une simple retranscription de CV en ligne, j'ai ajouté une page d'accueil, un menu pour circuler dans le site et des interactions pour le rendre plus ludique d'utilisation.
 
 Pour la charte graphique, le choix des couleurs et des polices, je voulais un design ergonomique et moderne. C'est pourquoi j'ai choisi une couleur principale très présente accompagnée de photos. De plus, comme de nombreux sites aujourd'hui, j'ai fait le choix d'une partie static avec les informations principales et le menu de circulation et une partie qui se lit en scrollang de haut en bas sur la page. Comme le site n'est pas complexe, j'ai décidé de mettre cette partie sur le côté droit de la page au lieu de en haut comme cela se fait pour les sites plus complexe. 
 
@@ -110,11 +114,24 @@ il a fallut réorganiser tout le dossier contenant les scripts du site. Actuelle
 
 ### c. Outils et librairies utilisées <a id="librairies"></a>
 
+Voici la liste des librairies que j'ai utilisé dans le cadre de ce projet (liste disponible dans package.json):
 
+- @brainhubeu/react-carousel: pour le carousel dans la partie **Projets** de l'application;
+- @mui/material & @mui/styles: material ui est une librairies react avec beaucoup de composants pour créer une interface interactives;
+- emailjs-com: permet d'ajouter la fonctionnalité pour envoyer un mail dans la partie **Contacts**; 
+- react-router-dom: permet de déclarer des routes;
+- react-scroll: permet de supporter l'event scroll;
+- react-typed: permet de créer l'animation effet "machine à écrire".
 
 ## 4. Mise en ligne sur netlify<a id="mise_en_ligne"></a>
 
-## 5. Perspectives d'amélioration<a id="perspectives"></a>
-### a. Animation plus fluides<a id="animations"></a>
-### b. Version française et anglaise<a id="version_anglaise"></a>
-### c. Version mobile<a id="version_mobile"></a>
+Pour mettre en ligne le sit j'ai utilisé le site Nelify. Netlify est une entreprise qui propose des services d'hébergement et de cloud computing sans serveur pour les sites web statiques. Le service de mise en ligne offert par Netlify est facile. 
+
+Pour cela, il faut tout d'abord ouvrir un nouveau repository sur son compte GitHub contenant le projet d'application et le lié à son dossier en local. Une fois le repository mise en place, il suffit de relier son compte GitHub et son compte Netlify, et la mise en ligne se fait via l'interface graphique de Netlify. 
+
+L'avantage de cette méthode est que le site mise en ligne se met à jour automatiquement avec tous les push qu'on fait sur le repository GitHub associé. De plus, il est possible de customiser l'URL du site. 
+
+
+## Conclusion<a id="conclusion"></a> 
+
+Finalement, le site est fonctionnel. Néanmoins, il reste quelques améliorations a établir comme le rendre disponible sur mobile ou les interactions plus fluides. 
